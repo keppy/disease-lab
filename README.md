@@ -1,6 +1,14 @@
 # disease-lab
 Knowledge graph informed AI for disease research
 
+disease-lab gives researchers a framework for applying best in class knowledge graph and retrieval augmented generation techniques to their data. 
+This project harnesses code from papers in a way that makes comparison on test data across different approaches possible. It offers portable Python tooling to make 
+building and observing your AI experiments a breeze.
+
+Builds upon the KG_RAG codebase and paper:
+https://github.com/BaranziniLab/KG_RAG
+https://arxiv.org/abs/2311.17330
+
 ---
 
 ## disease-lab package
