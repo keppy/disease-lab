@@ -40,9 +40,10 @@ $ disease-lab
 
 You will be presented with a prompt `> `, enter a string containing multiple diseases to get back the entities. Note that this will not return other entities like genes or drug compounds.
 
-## Credit
-Much of the inspiration for this codebase comes from the KG_RAG codebase and paper:
+## Credits
 
-https://github.com/BaranziniLab/KG_RAG
+https://arxiv.org/abs/2311.17330
+
+https://arxiv.org/abs/2405.14831
 
 TODO: give credit to specific techniques from papers and isolate them for testing
