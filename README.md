@@ -1,4 +1,4 @@
-# Disease Lab
+# Disease Lab 🧪
 > Knowledge graph informed AI for disease research
 
 A framework for applying best in class knowledge graph and retrieval augmented generation techniques to biomedical data and user queries. 
