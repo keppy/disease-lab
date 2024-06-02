@@ -5,6 +5,7 @@ description = "Knowledge graph informed AI for disease research"
 authors = ["James Dominguez <james@keppylab.com>"]
 license = "MIT"
 readme = "README.md"
+packages=[{ include = "disease_lab"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -23,3 +24,6 @@ prompt-toolkit = "^3.0.45"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+disease-lab = "disease_lab.cli.interactive:app"

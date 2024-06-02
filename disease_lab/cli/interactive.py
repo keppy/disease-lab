@@ -9,7 +9,7 @@ if os.getenv("OPENAI_API_KEY") is None:
     os.environ["OPENAI_API_KEY"] = getpass("Paste your OpenAI key from: https://platform.openai.com/account/api-keys\n")
     openai.api_key = os.getenv("OPENAI_API_KEY", "")
 
-def main():
+def app():
     session = PromptSession()
     while True:
         try:
@@ -21,6 +21,3 @@ def main():
         else:
             print("You entered:", text)
     print("GoodBye!")
-
-if __name__ == "__main__":
-    main()
