@@ -1,3 +1,4 @@
+from typing import List
 from pydantic import BaseModel, Field
 import instructor
 from openai import AsyncOpenAI
@@ -28,7 +29,7 @@ async def expand_disease_query(
     return await aclient.chat.completions.create(
         model=model,
         temperature=temp,
-        response_mode=DiseaseList,
+        response_model=DiseaseList,
         messages=[
             {
                 "role": "system", "content": SYSTEM_PROMPT,
