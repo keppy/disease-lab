@@ -38,6 +38,12 @@ $ poetry install
 $ disease-lab
 ```
 
+If you want to use an **open source** model, make sure Ollama is installed, updated, and running, and then execute:
+
+```
+$ disease-lab llama3
+```
+
 You will be presented with a prompt `> `, enter a string containing multiple diseases to get back the entities. Note that this will not return other entities like genes or drug compounds.
 
 ## Credits
